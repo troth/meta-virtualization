@@ -35,10 +35,10 @@ Signed-off-by: Bruce Ashfield <bruce.ashfield@gmail.com>
  hack/make/.binary | 37 ++++++++-----------------------------
  1 file changed, 8 insertions(+), 29 deletions(-)
 
-Index: import/hack/make/.binary
+Index: hack/make/.binary
 ===================================================================
---- import.orig/hack/make/.binary
-+++ import/hack/make/.binary
+--- hack/make/.binary
++++ hack/make/.binary
 @@ -3,7 +3,7 @@
  
  # a helper to provide ".exe" when it's appropriate

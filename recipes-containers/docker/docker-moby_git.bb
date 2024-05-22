@@ -55,7 +55,7 @@ SRC_URI = "\
 	file://docker.init \
 	file://0001-libnetwork-use-GO-instead-of-go.patch \
         file://0001-cli-use-external-GO111MODULE-and-cross-compiler.patch \
-        file://0001-dynbinary-use-go-cross-compiler.patch;patchdir=src/import \
+        file://0001-dynbinary-use-go-cross-compiler.patch;patchdir=${GO_SRCURI_DESTSUFFIX} \
 	"
 
 DOCKER_COMMIT = "${SRCREV_moby}"
@@ -64,7 +64,7 @@ require docker.inc
 
 # Apache-2.0 for docker
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://src/import/LICENSE;md5=4859e97a9c7780e77972d989f0823f28"
+LIC_FILES_CHKSUM = "file://${GO_SRCURI_DESTSUFFIX}/LICENSE;md5=4859e97a9c7780e77972d989f0823f28"
 
 DOCKER_VERSION = "25.0.3"
 PV = "${DOCKER_VERSION}+git${SRCREV_moby}"
