@@ -15,8 +15,8 @@ Signed-off-by: Bruce Ashfield <bruce.ashfield@gmail.com>
 
 Index: Makefile
 ===================================================================
---- Makefile
-+++ Makefile
+--- a/Makefile
++++ b/Makefile
 @@ -24,7 +24,7 @@
  		GO_BUILDMODE := "-buildmode=pie"
  	endif

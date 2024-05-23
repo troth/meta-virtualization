@@ -16,8 +16,8 @@ Signed-off-by: Jason Wessel <jason.wessel@windriver.com>
 
 Index: git/src/import/utils_linux.go
 ===================================================================
---- git.orig/src/import/utils_linux.go
-+++ git/src/import/utils_linux.go
+--- a/utils_linux.go
++++ b/utils_linux.go
 @@ -267,6 +267,11 @@
  }
  
